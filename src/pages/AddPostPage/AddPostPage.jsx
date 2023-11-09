@@ -4,7 +4,7 @@ export default function AddPostPage() {
 
 
     return (
-        <div id="AddPostPageMainContainer">
+        <div id="AddPostPageMainContainer" className="MainContent">
             AddPostPage
         </div>
     );

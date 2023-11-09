@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function MyProfile() {
+export default function MyProfilePage() {
 
 
     return (
-        <div id="MyProfileMainContainer">
+        <div id="MyProfileMainContainer" className="MainContent">
             MyProfile
         </div>
     );

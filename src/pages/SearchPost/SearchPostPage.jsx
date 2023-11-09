@@ -4,7 +4,7 @@ export default function SearchPostPage() {
 
 
     return (
-        <div id="SearchPostPageMainContainer">
+        <div id="SearchPostPageMainContainer" className="MainContent">
             Search Post
         </div>
     );

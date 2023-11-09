@@ -4,7 +4,7 @@ export default function RecentPostHome() {
 
 
     return (
-        <div id="RecentPostHomeMainContainer">
+        <div id="RecentPostHomeMainContainer" className="MainContent">
             PostHome
         </div>
     );
