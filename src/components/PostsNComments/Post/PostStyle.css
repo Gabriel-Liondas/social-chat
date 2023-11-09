@@ -1,0 +1,7 @@
+#PostMainContainer{
+    background-color: #1E172F;
+    padding: 26px 33px;
+    height: 1000px;
+    border-radius: 11px;
+    overflow: auto;
+}

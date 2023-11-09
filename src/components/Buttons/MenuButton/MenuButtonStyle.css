@@ -33,8 +33,11 @@
 }
 
 .menuButton > p {
-    font: 500 18px montserrat, Sans-serif;
-    width: 70%;
+    font: 500 16px montserrat, Sans-serif;
+
+    font-family: montserrat, Sans-serif;
+    text-align: start;
+    width: 65%;
     color: #fff;
 }
 

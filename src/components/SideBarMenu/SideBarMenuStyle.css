@@ -1,5 +1,6 @@
 #SideBarMainContainer {
     background-color: #1E172F;
-    width: 17%;
+    position: fixed;
+    width: 256px;
     height: 100vh;
 }

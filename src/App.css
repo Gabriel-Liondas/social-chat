@@ -42,5 +42,9 @@
 }
 
 .MainContent{
-  width: 83%;
+  width: 100%;
+  background-color: #0E091B;
+  font-family: montserrat, Sans-serif;
+  color: #fff;
+  padding: 45px 83px 45px 339px;
 }
