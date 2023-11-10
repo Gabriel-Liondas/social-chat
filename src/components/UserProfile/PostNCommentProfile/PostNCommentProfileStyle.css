@@ -1,0 +1,17 @@
+#PostsNCommentProfileMainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.authorProfilePic {
+    border-radius: 100%;
+    width: 60px;
+}
+
+.authorName {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+}
