@@ -7,11 +7,10 @@ export default function PostNCommentProfile(props) {
 
 
         
-        const fetchUser = async () => {
+        const fetchUser = async (authorId) => {
         let headers = new Headers();
-
             try {
-                const userResponse = await fetch(`/users/${props.CommentAuthorId}`,{
+                const userResponse = await fetch(`/users/${authorId}`,{
                     credentials: 'include',
                     method: 'GET'
                 });
@@ -23,8 +22,11 @@ export default function PostNCommentProfile(props) {
         }
         
         useEffect(() => {
-            fetchUser()
-        }, [])
+
+            if (props.authorId) {
+                fetchUser(props.authorId)
+            }
+        }, [props.authorId])
 
         return (
             <div id="PostsNCommentProfileMainContainer">
