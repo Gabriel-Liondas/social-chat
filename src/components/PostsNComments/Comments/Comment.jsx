@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import "./CommentStyle.css"
 import MenuButton from "../../Buttons/MenuButton/MenuButton"
 import PostNCommentProfile from '../../UserProfile/PostNCommentProfile/PostNCommentProfile';
-import CommentClass from './CommentClass';
 
 export default function Comment(props) {
     const [authorId, setauthorID] = useState("")
