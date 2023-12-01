@@ -1,0 +1,41 @@
+.actionButton{
+    display: inline-flex;
+    border: none;
+    border-radius: 15px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B2143;
+    width: auto;
+    padding: 20px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.actionButton:hover{
+    background-color: #4F4568;
+    cursor: pointer;
+}
+
+.lightPurpleBtn{
+    background-color: #2B2143;
+}
+
+.highlightedBtn{
+    background-color: #6233DE;
+}
+
+.highlightedBtn:hover{
+    background-color: #8f6cee;
+    cursor: pointer;
+}
+
+.actionButton > p {
+    font: 500 16px montserrat, Sans-serif;
+    font-family: montserrat, Sans-serif;
+    text-align: start;
+    color: #fff;
+}
+
+

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./PostNCommentProfileStyle.css"
-import tempProfilePic from "./tempDefaultPic.png"
+import defaultPic from "../../../assets/defaultPic.png"
 
 export default function PostNCommentProfile(props) {
         const [authorName, setAuthorName] = useState(null)
@@ -39,7 +39,7 @@ export default function PostNCommentProfile(props) {
 
         return (
             <div id="PostsNCommentProfileMainContainer">
-                <img className="authorProfilePic" src={imageData ? `data:image/jpeg;base64,${imageData}` : tempProfilePic} alt="profilePicture" />
+                <img className="authorProfilePic" src={imageData ? `data:image/jpeg;base64,${imageData}` : defaultPic} alt="profilePicture" />
                 <p className='authorName'>{authorName}</p>
             </div>
         );
