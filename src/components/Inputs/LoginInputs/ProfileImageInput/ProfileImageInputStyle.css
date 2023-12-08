@@ -1,20 +1,42 @@
-.profileImageInputContainer{
-    height: 120px;
-    width: 120px;
+input[type="file"] {
+    display: none;
 }
 
-.profileImageInputContainer>img{
-    border-radius: 100%;
-    height: 120px;
-    width: 120px;
+.profileImageInputContainer {
+    border-radius: 50%;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    padding: 6px;
+    cursor: pointer;
+    background: linear-gradient(120deg, #6233DE, #9064ca);
 }
 
-.profileImageInput {
-    opacity: 0;
-    border-radius: 100%;
-    height: 120px;
-    width: 120px;
+.pictureWrap{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.pictureUpload:before{
+    content: url(../../../../assets/editDefaultPic.png) ;
     position: absolute;
-    background-color: #D9D9D9;
+    margin-left: -8px;
+    margin-top: -15px;
+    max-width: 100%;
+    opacity: 0;
+    transform: scale(1);
+    transition: .5s ease;
+}
+
+.pictureUpload:hover:before{
+    opacity: 1;
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
 }
 

@@ -10,9 +10,15 @@ export default function ProfileImageInput(props) {
     }
 
     return (
-        <div className="profileImageInputContainer">
-            <input name="profilePictureInput" type="file" className="profileImageInput" onChange={onCHangeHandler} accept="image/x-png,image/gif,image/jpeg" />
-            {image && <img className="profileImageInputPlaceholder" src={image}/>}
-        </div>
+        // <div className="profileImageInputContainer">
+        //     <input name="profilePictureInput" type="file" className="profileImageInput" onChange={onCHangeHandler} accept="image/x-png,image/gif,image/jpeg" />
+        //     {image && <img className="profileImageInputPlaceholder" src={image}/>}
+        // </div>
+        <label htmlFor="picture-input" className="profileImageInputContainer">
+            <div className="pictureWrap pictureUpload" >
+            <img className="picture" for="picture-input" src={image}/>
+            </div>
+            <input id="picture-input" type="file" onChange={onCHangeHandler}/> 
+        </label>
     );
 }

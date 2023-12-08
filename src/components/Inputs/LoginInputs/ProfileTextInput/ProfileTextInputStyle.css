@@ -1,0 +1,11 @@
+#textInput{
+    background-color: #2B2143;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    padding: 12px 30px;
+    font-size: 20px;
+    color: #fff;
+    font-family: montserrat, sans-serif;
+}
+
